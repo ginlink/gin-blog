@@ -15,9 +15,9 @@ on:
       - ".gitlab-ci.yml"
       - "LICENSE"
       - "README"
-    workflow_dispatch:
-      branches:
-        - master
+  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
   deploy:
