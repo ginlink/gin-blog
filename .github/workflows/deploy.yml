@@ -16,6 +16,8 @@ on:
       - "LICENSE"
       - "README"
     workflow_dispatch:
+      branches:
+        - master
 
 jobs:
   deploy:
