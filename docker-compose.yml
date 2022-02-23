@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  gin-blog:
+    image: ginlink/gin-blog:latest
+    container_name: gin-blog
+    restart: always
+    ports:
+      - '3071:80'
+    privileged: true
+
+networks:
+  lend_default:
+    driver: bridge
