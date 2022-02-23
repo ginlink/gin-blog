@@ -1,26 +1,38 @@
 import Layout from '@theme/Layout'
 import React from 'react'
 import styled from 'styled-components'
+import About from '../components/About'
+import { AutoColumn } from '../components/Column'
+import { AutoRow } from '../components/Row'
+import Skills from '../components/Skills'
 
 const Wrapper = styled.div``
+
+const Card = styled.div<{ bgcolor?: string }>`
+  padding: 70px;
+  min-height: calc(100vh - 3.75rem);
+  background-color: ${({ bgcolor }) => (bgcolor ? bgcolor : 'unset')};
+`
 
 export default function Me() {
   return (
     <Layout title="Hello">
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '50vh',
-          fontSize: '20px',
-        }}
-      >
-        <p>
-          Hey folks, I'm a Web developer Building a successful product is a challenge. I am highly energetic in user
-          experience design, interfaces and web development.
-        </p>
-      </div>
+      <Wrapper>
+        <AutoColumn>
+          <Card bgcolor={'#36cfc9'}>
+            <About />
+          </Card>
+          <Card bgcolor={''}>
+            <Skills />
+          </Card>
+          <Card bgcolor={'#36cfc9'}>
+            <AutoRow>Projects</AutoRow>
+          </Card>
+          <Card bgcolor={''}>
+            <AutoRow>Experience</AutoRow>
+          </Card>
+        </AutoColumn>
+      </Wrapper>
     </Layout>
   )
 }

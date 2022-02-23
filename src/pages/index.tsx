@@ -29,7 +29,8 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link className="button button--secondary button--lg" to="/me">
               <AutoRow gap={'8px'}>
-                <Icon icon="carbon:view" />
+                {/* <Icon icon="carbon:view" /> */}
+                <Icon icon="carbon:view-filled" />
                 Me
               </AutoRow>
             </Link>
