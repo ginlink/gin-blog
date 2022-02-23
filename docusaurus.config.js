@@ -53,9 +53,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Blog',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/me', label: 'Me', position: 'left' },
           {
             href: 'https://github.com/ginlink/gin-blog',
             label: 'GitHub',
@@ -70,25 +70,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Blog',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contract Me',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                html: '<a style="color: unset;" href="mailto:ginlink1998@gmail.com">ginlink1998@gmail.com</a>'
               },
             ],
           },
@@ -96,8 +87,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Me',
+                to: '/me',
               },
               {
                 label: 'GitHub',
@@ -106,7 +97,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Gincool, Inc. Built with Docusaurus. </br> <a href="https://beian.miit.gov.cn/#/Integrated/index">蜀ICP备2021028336号</a>`,
       },
       prism: {
         theme: lightCodeTheme,
