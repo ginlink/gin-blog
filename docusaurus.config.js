@@ -53,9 +53,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Blog',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/me', label: 'Me', position: 'left' },
           {
             href: 'https://github.com/ginlink/gin-blog',
             label: 'GitHub',
@@ -70,7 +70,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Blog',
                 to: '/docs/intro',
               },
             ],
@@ -87,8 +87,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Me',
+                to: '/me',
               },
               {
                 label: 'GitHub',
