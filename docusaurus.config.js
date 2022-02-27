@@ -97,7 +97,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Gincool, Inc. Built with Docusaurus. </br> <a href="https://beian.miit.gov.cn/#/Integrated/index">蜀ICP备2021028336号</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Gincool, Inc. Built with <a href="https://docusaurus.io/" target="_blank" >Docusaurus</a>. </br> <a href="https://beian.miit.gov.cn/#/Integrated/index">蜀ICP备2021028336号</a>`,
       },
       prism: {
         theme: lightCodeTheme,
