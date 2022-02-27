@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { AutoRow } from '../Row'
 import { Text } from 'rebass'
-
-const Wrapper = styled.div``
+import { Container } from '@site/src/pages'
+import { TYPE } from '../Text'
+import workIcon from '@site/static/img/work.png'
 
 export const Box = styled.div`
   padding: 30px 30px;
@@ -25,11 +26,11 @@ const Adventer = styled.img`
 
 export default function About() {
   return (
-    <Wrapper>
+    <Container>
       <AutoRow gap={'60px'} nowrap>
         <Box style={{ flex: 1 }}>
-          <TYPE_Header>Hey folks, I'm a</TYPE_Header>
-          <TYPE_Header>Software engineer</TYPE_Header>
+          <TYPE.largeHeader>Hey folks, I'm a</TYPE.largeHeader>
+          <TYPE.largeHeader>Software engineer</TYPE.largeHeader>
           <TYPE_Body>
             Building a successful product is a challenge. I am highly energetic in user experience design, interfaces
             and web development.
@@ -37,9 +38,9 @@ export default function About() {
         </Box>
 
         <Box style={{ flex: 1 }}>
-          <Adventer src={'https://tom-young-portfolio.vercel.app/images/hero-image.svg'} />
+          <Adventer src={workIcon} />
         </Box>
       </AutoRow>
-    </Wrapper>
+    </Container>
   )
 }

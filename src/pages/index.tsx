@@ -9,6 +9,24 @@ import styled from 'styled-components'
 import { AutoRow, RowCenter } from '../components/Row'
 import { Icon } from '@iconify/react'
 
+export const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+`
+const xs = 600
+const sm = 900
+
+export const Grid = styled.div<{ xs?: number; sm?: number }>`
+  width: 100%;
+
+  @media (max-width: ${xs}px) {
+    width: ${({ xs }) => xs && (xs * 8.33).toFixed(2) + 'px'};
+  }
+  @media (max-width: ${sm}px) {
+    width: ${({ sm }) => sm && (sm * 8.33).toFixed(2) + 'px'};
+  }
+`
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
