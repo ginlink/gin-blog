@@ -8,6 +8,7 @@ import HomepageFeatures from '../components/HomepageFeatures'
 import styled from 'styled-components'
 import { AutoRow, RowCenter } from '../components/Row'
 import { Icon } from '@iconify/react'
+import { description } from '../constants/misc'
 
 export const Container = styled.div`
   max-width: 1200px;
@@ -62,7 +63,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout title={`Hello from ${siteConfig.title}`} description={description}>
       <HomepageHeader />
 
       <main>
