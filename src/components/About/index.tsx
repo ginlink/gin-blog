@@ -29,11 +29,10 @@ export default function About() {
     <Container>
       <AutoRow gap={'60px'} nowrap>
         <Box style={{ flex: 1 }}>
-          <TYPE.largeHeader>Hey folks, I'm a</TYPE.largeHeader>
-          <TYPE.largeHeader>Software engineer</TYPE.largeHeader>
+          <TYPE.largeHeader>你好，我是一名</TYPE.largeHeader>
+          <TYPE.largeHeader>区块链前端开发工程师</TYPE.largeHeader>
           <TYPE_Body>
-            Building a successful product is a challenge. I am highly energetic in user experience design, interfaces
-            and web development.
+            我是Gin，构建一个成功的产品是一个挑战。我在用户体验设计、界面和网页开发方面非常活跃。非常喜欢JavaScript这门语言，十分灵活，并给我的生活带来乐趣！
           </TYPE_Body>
         </Box>
 

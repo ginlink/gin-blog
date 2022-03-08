@@ -13,16 +13,22 @@ const ItemWrapper = styled.div`
   padding: 16px;
   background-color: #fff;
   border-radius: 10px;
+
+  max-height: 420px;
+  overflow-y: auto;
 `
 const StyledIcon = styled(Icon)`
   font-size: 32px;
   cursor: pointer;
 `
+const ImgWrapper = styled(RowCenter)`
+  max-height: 200px;
+`
 const Img = styled.img`
   /* width: 100%; */
   height: 100%;
 `
-function Project({ title, desc, label, url, showUrl }: ProjectItem) {
+function Project({ title, desc, label, url, showUrl, icon }: ProjectItem) {
   return (
     <ItemWrapper>
       <AutoColumn gap={'16px'}>
@@ -41,9 +47,16 @@ function Project({ title, desc, label, url, showUrl }: ProjectItem) {
           <TYPE.subHeader>{title}</TYPE.subHeader>
           <TYPE.body>{desc}</TYPE.body>
         </AutoColumn>
-        <TYPE.body>{label}</TYPE.body>
 
-        <Img src={'https://tom-young-portfolio.vercel.app/images/hero-image.svg'} style={{ cursor: 'pointer' }} />
+        <AutoRow gap={'3px'}>
+          {label.split(',').map((x) => {
+            return <TYPE.body fontWeight={'bold'}>{x}</TYPE.body>
+          })}
+        </AutoRow>
+
+        <ImgWrapper>
+          <Img src={icon} style={{ cursor: 'pointer' }} />
+        </ImgWrapper>
       </AutoColumn>
     </ItemWrapper>
   )
