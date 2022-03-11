@@ -3,11 +3,11 @@
 
 name: build_and_deploy_web_to_110.99
 
-on: 
+on:
   push:
     branches:
       - master
-  workflow_dispatch
+  workflow_dispatch:
 
 env:
   DOCKER_ACCESS_NAME: ${{ secrets.DOCKER_ACCESS_NAME }}
