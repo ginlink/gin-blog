@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Gin's site",
   tagline: 'Gin is cool',
-  url: 'http://gincool.com',
+  url: 'https://gincool.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'gincool', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'gin-blog', // Usually your repo name.
 
   presets: [
     [
