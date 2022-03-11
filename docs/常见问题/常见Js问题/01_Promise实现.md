@@ -2,7 +2,11 @@
 sidebar_position: 100
 ---
 
-### 题目：实现Promise
+# 实现Promise
+
+`CREATE: 2022-03-11 22:14:09`
+
+### 题目：实现Promise ( 中等:smile: )
 
 请利用Ts | Js，实现一个Promise，尽量根据[PromiseA+规范](https://promisesaplus.com/)来实现
 
