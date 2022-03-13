@@ -14,6 +14,10 @@ const Card = styled.div<{ bgcolor?: string }>`
   padding: 70px;
   /* min-height: calc(100vh - 3.75rem); */
   background-color: ${({ bgcolor }) => (bgcolor ? bgcolor : 'unset')};
+
+  @media (max-width: ${600}px) {
+    padding: 30px;
+  }
 `
 
 export default function Me() {
