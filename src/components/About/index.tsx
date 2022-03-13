@@ -23,15 +23,20 @@ const Adventer = styled.img`
   overflow: hidden;
   border-radius: 50%;
 `
-const MyRow = styled.div`
+const MyRow = styled.div<{ gap?: string }>`
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
+
+  /* & > :not(style) + :not(style) {
+    margin-left: ${({ gap }) => gap};
+  } */
 `
 
 export default function About() {
   return (
     <Container>
-      <MyRow>
+      <MyRow gap={'8px'}>
         <Grid xs={12} sm={6}>
           <TYPE.largeHeader>你好，我是一名</TYPE.largeHeader>
           <TYPE.largeHeader>区块链前端开发工程师</TYPE.largeHeader>

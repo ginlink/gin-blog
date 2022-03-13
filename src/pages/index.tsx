@@ -14,18 +14,18 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 `
-export const xs = 600
-export const sm = 900
+export const xs = 0
+export const sm = 600
 
 export const Grid = styled.div<{ xs?: number; sm?: number }>`
   width: 100%;
 
-  @media (max-width: ${sm}px) {
-    width: ${({ sm }) => sm && (sm * 8.33).toFixed(2) + '%'};
+  @media (min-width: ${xs}px) {
+    width: ${({ xs }) => xs && (xs * 8.33).toFixed(2) + '%'};
   }
 
-  @media (max-width: ${xs}px) {
-    width: ${({ xs }) => xs && (xs * 8.33).toFixed(2) + '%'};
+  @media (min-width: ${sm}px) {
+    width: ${({ sm }) => sm && (sm * 8.33).toFixed(2) + '%'};
   }
 `
 
