@@ -49,8 +49,12 @@ function Project({ title, desc, label, url, showUrl, icon }: ProjectItem) {
         </AutoColumn>
 
         <AutoRow gap={'3px'}>
-          {label.split(',').map((x) => {
-            return <TYPE.body fontWeight={'bold'}>{x}</TYPE.body>
+          {label.split(',').map((x, index) => {
+            return (
+              <TYPE.body fontWeight={'bold'} key={index}>
+                {x}
+              </TYPE.body>
+            )
           })}
         </AutoRow>
 
