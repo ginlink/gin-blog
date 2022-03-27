@@ -34,9 +34,9 @@ export default function Me() {
           <Card bgcolor={'#36cfc9'}>
             <Projects />
           </Card>
-          {/* <Card bgcolor={''}>
+          <Card bgcolor={''}>
             <Experience />
-          </Card> */}
+          </Card>
         </AutoColumn>
       </Wrapper>
     </Layout>
