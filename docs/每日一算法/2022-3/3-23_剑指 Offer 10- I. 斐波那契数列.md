@@ -6,6 +6,10 @@ sidebar_position: 110
 
 > Date：2022-03-23 23:37:33
 
+标签：
+
+- 动态规划
+
 ### 题目：[剑指 Offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) ( 简单:smile: ) 
 
 写一个函数，输入 `n` ，求斐波那契（Fibonacci）数列的第 `n` 项（即 `F(N)`）。斐波那契数列的定义如下：
@@ -104,5 +108,4 @@ main()
 
 export {}
 ```
-
 
