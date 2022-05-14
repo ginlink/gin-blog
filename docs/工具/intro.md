@@ -10,11 +10,8 @@ sidebar_position: 1
 
 ### 翻译软件
 
-mac端：[Bob](https://www.macwk.com/soft/bob)
+mac 端：[Bob](https://www.macwk.com/soft/bob)
 
-![image-20220227185923294](https://gitee.com/nahaohao/pic-upload/raw/master/img/image-20220227185923294.png)
+![image-20220227185923294](https://cdn.gincool.com//img/image-20220227185923294.png)
 
-
-
-windows端目前没有较好的翻译软件
-
+windows 端目前没有较好的翻译软件
