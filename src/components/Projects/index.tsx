@@ -11,7 +11,7 @@ const ItemWrapper = styled.div`
   width: 100%;
   max-width: 480px;
   padding: 16px;
-  background-color: var(--ifm-background-color);
+  background-color: var(--ifm-navbar-background-color);
   border-radius: 10px;
 
   max-height: 420px;
