@@ -16,6 +16,7 @@ class GitalkComment extends Component {
 
     gitalk.render('gitalk-container')
   }
+
   render() {
     return <div id="gitalk-container"></div>
   }
