@@ -3,6 +3,7 @@ import { useDocsSidebar } from '@docusaurus/theme-common'
 import clsx from 'clsx'
 import styles from './styles.module.css'
 import GitalkComment from '@site/src/theme/GitalkComment'
+import BrowserOnly from '@docusaurus/BrowserOnly'
 export default function DocPageLayoutMain({ hiddenSidebarContainer, children }) {
   const sidebar = useDocsSidebar()
   return (
@@ -18,7 +19,7 @@ export default function DocPageLayoutMain({ hiddenSidebarContainer, children }) 
       >
         {children}
 
-        <GitalkComment />
+        <BrowserOnly fallback={<div />}>{() => <GitalkComment />}</BrowserOnly>
       </div>
     </main>
   )
