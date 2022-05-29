@@ -29,7 +29,7 @@ export default function Experience() {
             >
               <h3>南阳理工学院</h3>
               <h4>本科</h4>
-              <p>在校四年，自学计算机基础和前端知识</p>
+              <p>在校四年，学习计算机基础和前端知识</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{ background: 'var(--ifm-background-color)' }}
@@ -38,7 +38,8 @@ export default function Experience() {
             >
               <h3>深圳云海思航科技有限公司</h3>
               <h4>深圳，区块链前端工程师</h4>
-              <p>负责dapp程序开发</p>
+              <p>负责dapp程序页面开发</p>
+              <p>负责联调合约</p>
               <p>负责静态页面开发</p>
               <p>负责面试</p>
             </VerticalTimelineElement>
