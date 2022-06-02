@@ -32,15 +32,13 @@ sidebar_position: 1
 
 博客每周更新一次，主要是对一周的总结和整理。
 
-上次更新于：2022-03-06 23:43:36
-
-该博客由 [Typora](https://typora.io/) 编写，采用 [Docusaurus](https://docusaurus.io/) 搭建，部署在 [腾讯云](https://cloud.tencent.com/) 服务器上
+该博客由 [Typora](https://typora.io/) 编写，采用 [Docusaurus2](https://docusaurus.io/) 搭建，部署在 [腾讯云](https://cloud.tencent.com/) 服务器上，资源加速由 [七牛云](https://portal.qiniu.com/) 提供
 
 ### TODO
 
-- [ ] 每一个模块的介绍
-- [ ] 完成 me 页面
+- [x] 每一个模块的介绍
+- [x] 完成 me 页面
 - [ ] 国际化
-- [ ] 适配皮肤
-- [ ] 适配移动端
-- [ ] 搜索功能
+- [x] 适配皮肤
+- [x] 适配移动端
+- [ ] 搜索功能: ing
