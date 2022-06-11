@@ -38,8 +38,8 @@ export default function Experience() {
             >
               <h3>深圳云海思航科技有限公司</h3>
               <h4>深圳，区块链前端工程师</h4>
-              <p>负责dapp程序页面开发</p>
-              <p>负责联调合约</p>
+              <p>负责dapp程序开发</p>
+              <p>负责前端联调合约</p>
               <p>负责静态页面开发</p>
               <p>负责面试</p>
             </VerticalTimelineElement>
