@@ -14,8 +14,9 @@ const ItemWrapper = styled.div`
   background-color: var(--ifm-navbar-background-color);
   border-radius: 10px;
 
-  max-height: 420px;
-  overflow-y: auto;
+  /* max-height: 420px; */
+  /* overflow-y: auto; */
+  /* height: 100%; */
 `
 const StyledIcon = styled(Icon)`
   font-size: 32px;
@@ -28,6 +29,23 @@ const Img = styled.img`
   /* width: 100%; */
   height: 100%;
 `
+
+const StyledAutoRow = styled(AutoRow)`
+  justify-content: space-between;
+  align-items: stretch;
+  padding-left: 104px;
+  padding-right: 104px;
+
+  /* & > :last-child {
+    margin-right: auto;
+  } */
+
+  @media screen and (max-width: 540px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+`
+
 function Project({ title, desc, label, url, showUrl, icon }: ProjectItem) {
   return (
     <ItemWrapper>
@@ -50,9 +68,17 @@ function Project({ title, desc, label, url, showUrl, icon }: ProjectItem) {
 
         <AutoRow gap={'3px'}>
           {label.split(',').map((x, index) => {
+            if (index === label.split(',').length - 1) {
+              return (
+                <TYPE.body fontWeight={'bold'} key={index}>
+                  {x}
+                </TYPE.body>
+              )
+            }
+
             return (
               <TYPE.body fontWeight={'bold'} key={index}>
-                {x}
+                {x} {'+'}
               </TYPE.body>
             )
           })}
@@ -72,7 +98,7 @@ export default function Projects() {
       <AutoColumn justify={'center'} gap={'32px'}>
         <TYPE.largeHeader>Projects</TYPE.largeHeader>
 
-        <AutoRow gap={'8px'} style={{ justifyContent: 'center' }}>
+        <StyledAutoRow gap={'16px'}>
           {projects.map((item) => {
             return (
               <Fragment key={item.title}>
@@ -80,7 +106,7 @@ export default function Projects() {
               </Fragment>
             )
           })}
-        </AutoRow>
+        </StyledAutoRow>
       </AutoColumn>
     </Container>
   )
