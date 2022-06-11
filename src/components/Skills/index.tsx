@@ -21,6 +21,13 @@ const IconWrapper = styled.div`
   max-width: 800px;
 `
 
+const StyledAutoColumn = styled(AutoColumn)`
+  width: 160px;
+  @media screen and (max-width: 540px) {
+    width: 32%;
+  }
+`
+
 export default function Skills() {
   return (
     <Container>
@@ -32,12 +39,12 @@ export default function Skills() {
             {icons.map(({ icon, label, url }) => {
               return (
                 <Fragment key={icon}>
-                  <AutoColumn justify={'center'} gap={'8px'}>
+                  <StyledAutoColumn justify={'center'} gap={'8px'}>
                     <a href={url} target="_blank">
                       <Icon src={icon} />
                     </a>
                     <TYPE.body>{label}</TYPE.body>
-                  </AutoColumn>
+                  </StyledAutoColumn>
                 </Fragment>
               )
             })}

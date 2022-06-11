@@ -8,6 +8,8 @@ import icon7 from '@site/static/img/skills/uniapp.png'
 import icon8 from '@site/static/img/skills/next-js.png'
 import icon9 from '@site/static/img/skills/git.png'
 import icon10 from '@site/static/img/skills/dapp.png'
+import icon11 from '@site/static/img/skills/uniswap.png'
+import icon12 from '@site/static/img/skills/curve.png'
 
 export type IconProps = {
   icon: string
@@ -28,6 +30,8 @@ export const iconsMap: {
   next: { icon: icon8, label: 'Nextjs', url: 'https://nextjs.org/' },
   nest: { icon: icon4, label: 'Nestjs', url: 'https://nestjs.com/' },
   uniapp: { icon: icon7, label: 'Uniapp', url: 'https://uniapp.dcloud.io/' },
+  uniswap: { icon: icon11, label: 'Uniswap', url: 'https://uniswap.org/' },
+  curve: { icon: icon12, label: 'Curve', url: 'https://curve.fi/' },
 }
 
 // export const icons: IconProps[] = [
