@@ -13,21 +13,16 @@ const ItemWrapper = styled.div`
   padding: 16px;
   background-color: var(--ifm-navbar-background-color);
   border-radius: 10px;
-
-  /* max-height: 420px; */
-  /* overflow-y: auto; */
-  /* height: 100%; */
 `
 const StyledIcon = styled(Icon)`
   font-size: 32px;
   cursor: pointer;
 `
 const ImgWrapper = styled(RowCenter)`
-  max-height: 200px;
+  width: 100%;
 `
 const Img = styled.img`
-  /* width: 100%; */
-  height: 100%;
+  width: 100%;
 `
 
 const StyledAutoRow = styled(AutoRow)`
@@ -35,10 +30,6 @@ const StyledAutoRow = styled(AutoRow)`
   align-items: stretch;
   padding-left: 104px;
   padding-right: 104px;
-
-  /* & > :last-child {
-    margin-right: auto;
-  } */
 
   @media screen and (max-width: 540px) {
     padding-left: 0;
