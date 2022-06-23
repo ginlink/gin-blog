@@ -5,6 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const BASE_URL = 'https://gincool.com'
+const BASE_URL_NO_HTTPS = 'http://gincool.com'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -132,14 +133,14 @@ const config = {
 
         //... other Algolia params
         rateLimit: 8,
-        startUrls: [BASE_URL],
+        startUrls: [BASE_URL, BASE_URL_NO_HTTPS],
         sitemaps: [`${BASE_URL}/sitemap.xml`],
         ignoreCanonicalTo: true,
-        discoveryPatterns: [`https://${BASE_URL}/**`],
+        discoveryPatterns: [`https://${BASE_URL}/**`, `http://${BASE_URL_NO_HTTPS}/**`],
         actions: [
           {
             indexName: 'gincool',
-            pathsToMatch: [`https://${BASE_URL}/**`],
+            pathsToMatch: [`https://${BASE_URL}/**`, `http://${BASE_URL_NO_HTTPS}/**`],
             recordExtractor: ({ $, helpers }) => {
               // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
               const lvl0 =
