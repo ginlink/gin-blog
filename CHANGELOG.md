@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/ginlink/gin-blog/compare/v0.1.2...v0.2.0) (2022-06-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* add doc search
+
+### Features
+
+* add doc search ([de61cbf](https://github.com/ginlink/gin-blog/commit/de61cbf35b0a438cf9c4124e6b6fc17013a0fced))
+* change doc config to adapte search ([618130b](https://github.com/ginlink/gin-blog/commit/618130b450c7dcab8f0213ed70c46c4851c3dfc8))
+
 ### [0.1.2](https://github.com/ginlink/gin-blog/compare/v0.1.1...v0.1.2) (2022-06-16)
 
 
