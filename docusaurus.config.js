@@ -80,7 +80,7 @@ const config = {
             ],
           },
           {
-            title: 'Contract Me',
+            title: 'Contact Me',
             items: [
               {
                 html: '<a style="color: unset;" href="mailto:ginlink1998@gmail.com">ginlink1998@gmail.com</a>'
