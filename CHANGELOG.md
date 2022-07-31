@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1-alpha.0](https://github.com/ginlink/gin-blog/compare/v0.2.0...v0.2.1-alpha.0) (2022-07-31)
+
+
+### Features
+
+* update ([20c6ebf](https://github.com/ginlink/gin-blog/commit/20c6ebf5c65d26bcea9b15e8bffc6a76346286c8))
+* update ([fd2a86c](https://github.com/ginlink/gin-blog/commit/fd2a86c971ab33ee40dc1c552da2af75c69a6434))
+
 ## [0.2.0](https://github.com/ginlink/gin-blog/compare/v0.1.2...v0.2.0) (2022-06-23)
 
 
