@@ -1,0 +1,106 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.1 前端": {
+    "message": "1 Front-end",
+    "description": "The label for category 1 前端 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2 日常记录": {
+    "message": "2 Daily record",
+    "description": "The label for category 2 日常记录 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021 🐮": {
+    "message": "2021 🐮",
+    "description": "The label for category 2021 🐮 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-7": {
+    "message": "2021-7",
+    "description": "The label for category 2021-7 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-8": {
+    "message": "2021-8",
+    "description": "The label for category 2021-8 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-9": {
+    "message": "2021-9",
+    "description": "The label for category 2021-9 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-10": {
+    "message": "2021-10",
+    "description": "The label for category 2021-10 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-11": {
+    "message": "2021-11",
+    "description": "The label for category 2021-11 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2021-12": {
+    "message": "2021-12",
+    "description": "The label for category 2021-12 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022 🐯": {
+    "message": "2022 🐯",
+    "description": "The label for category 2022 🐯 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-1": {
+    "message": "2022-1",
+    "description": "The label for category 2022-1 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-2": {
+    "message": "2022-2",
+    "description": "The label for category 2022-2 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-3": {
+    "message": "2022-3",
+    "description": "The label for category 2022-3 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-4": {
+    "message": "2022-4",
+    "description": "The label for category 2022-4 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-5": {
+    "message": "2022-5",
+    "description": "The label for category 2022-5 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-6": {
+    "message": "2022-6",
+    "description": "The label for category 2022-6 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2022-7": {
+    "message": "2022-7",
+    "description": "The label for category 2022-7 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.3 算法": {
+    "message": "3 算法",
+    "description": "The label for category 3 算法 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.4 区块链": {
+    "message": "4 区块链",
+    "description": "The label for category 4 区块链 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.5 工具": {
+    "message": "5 工具",
+    "description": "The label for category 5 工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.6 后端": {
+    "message": "6 后端",
+    "description": "The label for category 6 后端 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.7 电影": {
+    "message": "7 电影",
+    "description": "The label for category 7 电影 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.8 常见问题": {
+    "message": "8 常见问题",
+    "description": "The label for category 8 常见问题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.常见Js问题": {
+    "message": "常见Js问题",
+    "description": "The label for category 常见Js问题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.一些原理": {
+    "message": "一些原理",
+    "description": "The label for category 一些原理 in sidebar tutorialSidebar"
+  }
+}

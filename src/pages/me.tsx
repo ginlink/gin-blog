@@ -5,7 +5,6 @@ import About from '../components/About'
 import { AutoColumn } from '../components/Column'
 import Experience from '../components/Experience'
 import Projects from '../components/Projects'
-import { AutoRow } from '../components/Row'
 import Skills from '../components/Skills'
 
 const Wrapper = styled.div``

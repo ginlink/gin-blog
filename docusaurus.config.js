@@ -19,6 +19,16 @@ const config = {
   organizationName: 'gincool', // Usually your GitHub org/user name.
   projectName: 'gin-blog', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+  },
+
   presets: [
     [
       'classic',
@@ -66,6 +76,10 @@ const config = {
           {
             href: 'https://github.com/ginlink/gin-blog',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

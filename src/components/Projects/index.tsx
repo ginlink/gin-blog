@@ -6,6 +6,7 @@ import { AutoColumn } from '../Column'
 import { Container } from '@site/src/pages'
 import { Icon } from '@iconify/react'
 import { ProjectItem, projects } from '@site/src/constants/projects'
+import Translate from '@docusaurus/Translate'
 
 const ItemWrapper = styled.div`
   width: 100%;
@@ -87,12 +88,14 @@ export default function Projects() {
   return (
     <Container>
       <AutoColumn justify={'center'} gap={'32px'}>
-        <TYPE.largeHeader>Projects</TYPE.largeHeader>
+        <TYPE.largeHeader>
+          <Translate>Projects</Translate>
+        </TYPE.largeHeader>
 
         <StyledAutoRow gap={'16px'}>
-          {projects.map((item) => {
+          {projects.map((item, index) => {
             return (
-              <Fragment key={item.title}>
+              <Fragment key={index}>
                 <Project {...item} />
               </Fragment>
             )
