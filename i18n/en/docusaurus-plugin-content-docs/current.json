@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.1 前端": {
-    "message": "1 前端",
+    "message": "1 Front-end",
     "description": "The label for category 1 前端 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.2 日常记录": {
-    "message": "2 日常记录",
+    "message": "2 Daily record",
     "description": "The label for category 2 日常记录 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.2021 🐮": {
