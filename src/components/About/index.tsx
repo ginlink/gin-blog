@@ -5,6 +5,7 @@ import { Text } from 'rebass'
 import { Container, Grid } from '@site/src/pages'
 import { TYPE } from '../Text'
 import workIcon from '@site/static/img/work.png'
+import Translate from '@docusaurus/Translate'
 
 export const Box = styled.div`
   padding: 30px 30px;
@@ -38,10 +39,17 @@ export default function About() {
     <Container>
       <MyRow gap={'8px'}>
         <Grid xs={12} sm={6}>
-          <TYPE.largeHeader>你好，我是一名</TYPE.largeHeader>
-          <TYPE.largeHeader>区块链前端开发工程师</TYPE.largeHeader>
+          <TYPE.largeHeader>
+            <Translate>Hello, I'm a</Translate>
+          </TYPE.largeHeader>
+          <TYPE.largeHeader>
+            <Translate>blockchain front-end development engineer</Translate>
+          </TYPE.largeHeader>
           <TYPE_Body>
-            我是Gin，构建一个成功的产品是一个挑战。我在用户体验设计、界面和网页开发方面非常活跃。非常喜欢JavaScript这门语言，十分灵活，并给我的生活带来乐趣！
+            <Translate>
+              I'm Gin and building a successful product is a challenge. I am very active in user experience design,
+              interface and web development. I like JavaScript very much. It is very flexible and brings fun to my life!
+            </Translate>
           </TYPE_Body>
         </Grid>
 

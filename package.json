@@ -11,6 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
+    "i18n:en": "docusaurus write-translations",
+    "i18n:cn": "docusaurus write-translations --locale zh-Hans",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "release:dry": "standard-version --dry-run",

@@ -6,6 +6,7 @@ import 'react-vertical-timeline-component/style.min.css'
 import { AutoColumn } from '../Column'
 import { TYPE } from '../Text'
 import styled from 'styled-components'
+import Translate, { translate } from '@docusaurus/Translate'
 
 const Wrapper = styled.div``
 const Img = styled.img`
@@ -17,7 +18,9 @@ export default function Experience() {
     <Wrapper>
       <Container>
         <AutoColumn justify={'center'} gap={'32px'}>
-          <TYPE.largeHeader>Experience</TYPE.largeHeader>
+          <TYPE.largeHeader>
+            <Translate>Experience</Translate>
+          </TYPE.largeHeader>
 
           <VerticalTimeline lineColor={'#36cfc9'}>
             <VerticalTimelineElement
@@ -27,21 +30,36 @@ export default function Experience() {
               date={<TYPE.gray color={'var(--ifm-navbar-link-color)'}>2017.9 - 2021.6</TYPE.gray>}
               icon={<Img src={useBaseUrl('/img/nangong.png')} />}
             >
-              <h3>南阳理工学院</h3>
-              <h4>本科</h4>
-              <p>在校四年，学习计算机基础和前端知识</p>
+              <h3>
+                <Translate>Nanyang Institute of Technology</Translate>
+              </h3>
+              <h4>
+                <Translate>Undergraduate</Translate>
+              </h4>
+              <p>
+                <Translate>Four years in school, learning computer basic and front-end knowledge</Translate>
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               contentStyle={{ background: 'var(--ifm-background-color)' }}
-              date="2021.7 - 至今"
+              date={translate({ message: '2021.7 - Now' })}
               icon={<Img src={useBaseUrl('/img/skills/dapp.png')} />}
             >
-              <h3>深圳云海思航科技有限公司</h3>
-              <h4>深圳，区块链前端工程师</h4>
-              <p>负责dapp程序开发</p>
-              <p>负责前端联调合约</p>
-              <p>负责静态页面开发</p>
-              <p>负责面试</p>
+              <h3>
+                <Translate>Shenzhen Yunhai Sihang Technology Co. LTD</Translate>
+              </h3>
+              <h4>
+                <Translate>Shenzhen, blockchain front-end engineer</Translate>
+              </h4>
+              <p>
+                <Translate>Responsible for DAPP program development</Translate>
+              </p>
+              <p>
+                <Translate>Responsible for the front end interagency contract</Translate>
+              </p>
+              <p>
+                <Translate>Responsible for static page development</Translate>
+              </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </AutoColumn>

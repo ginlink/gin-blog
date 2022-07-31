@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Gin's site",
+    "description": "The title in the navbar"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Me": {
+    "message": "Me",
+    "description": "Navbar item with label Me"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

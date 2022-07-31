@@ -5,6 +5,7 @@ import { TYPE } from '../Text'
 import { AutoColumn } from '../Column'
 import { Container } from '@site/src/pages'
 import { icons } from '@site/src/constants/icons'
+import Translate from '@docusaurus/Translate'
 
 const Icon = styled.img`
   width: 100px;
@@ -32,7 +33,9 @@ export default function Skills() {
   return (
     <Container>
       <AutoColumn justify={'center'} gap={'32px'}>
-        <TYPE.largeHeader>Technical skills</TYPE.largeHeader>
+        <TYPE.largeHeader>
+          <Translate>Technical skills</Translate>
+        </TYPE.largeHeader>
 
         <IconWrapper>
           <AutoRow gap={'16px'} style={{ justifyContent: 'space-evenly' }}>
