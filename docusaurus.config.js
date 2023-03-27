@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 const BASE_URL = 'https://gincool.com'
 const BASE_URL_NO_HTTPS = 'http://gincool.com'
@@ -19,16 +19,6 @@ const config = {
   organizationName: 'gincool', // Usually your GitHub org/user name.
   projectName: 'gin-blog', // Usually your repo name.
 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-Hans'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en-GB',
-      },
-    },
-  },
-
   presets: [
     [
       'classic',
@@ -42,8 +32,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/ginlink/gin-blog',
+          editUrl: 'https://github.com/ginlink/gin-blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -100,7 +89,7 @@ const config = {
             title: 'Contact Me',
             items: [
               {
-                html: '<a style="color: unset;" href="mailto:ginlink1998@gmail.com">ginlink1998@gmail.com</a>'
+                html: '<a style="color: unset;" href="mailto:ginlink1998@gmail.com">ginlink1998@gmail.com</a>',
               },
             ],
           },
@@ -158,11 +147,9 @@ const config = {
             recordExtractor: ({ $, helpers }) => {
               // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
               const lvl0 =
-                $(
-                  '.menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active'
-                )
+                $('.menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active')
                   .last()
-                  .text() || 'Documentation';
+                  .text() || 'Documentation'
 
               return helpers.docsearch({
                 recordProps: {
@@ -181,27 +168,14 @@ const config = {
                 indexHeadings: true,
                 aggregateContent: true,
                 recordVersion: 'v3',
-              });
+              })
             },
           },
         ],
         initialIndexSettings: {
           gincool: {
-            attributesForFaceting: [
-              'type',
-              'lang',
-              'language',
-              'version',
-              'docusaurus_tag',
-            ],
-            attributesToRetrieve: [
-              'hierarchy',
-              'content',
-              'anchor',
-              'url',
-              'url_without_anchor',
-              'type',
-            ],
+            attributesForFaceting: ['type', 'lang', 'language', 'version', 'docusaurus_tag'],
+            attributesToRetrieve: ['hierarchy', 'content', 'anchor', 'url', 'url_without_anchor', 'type'],
             attributesToHighlight: ['hierarchy', 'content'],
             attributesToSnippet: ['content:10'],
             camelCaseAttributes: ['hierarchy', 'content'],
@@ -217,20 +191,8 @@ const config = {
             ],
             distinct: true,
             attributeForDistinct: 'url',
-            customRanking: [
-              'desc(weight.pageRank)',
-              'desc(weight.level)',
-              'asc(weight.position)',
-            ],
-            ranking: [
-              'words',
-              'filters',
-              'typo',
-              'attribute',
-              'proximity',
-              'exact',
-              'custom',
-            ],
+            customRanking: ['desc(weight.pageRank)', 'desc(weight.level)', 'asc(weight.position)'],
+            ranking: ['words', 'filters', 'typo', 'attribute', 'proximity', 'exact', 'custom'],
             highlightPreTag: '<span class="algolia-docsearch-suggestion--highlight">',
             highlightPostTag: '</span>',
             minWordSizefor1Typo: 3,
@@ -246,6 +208,6 @@ const config = {
         },
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config
