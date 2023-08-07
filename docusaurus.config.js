@@ -41,12 +41,10 @@ const config = {
         //   changefreq: 'weekly',
         //   priority: 0.5,
         // },
-      }),
-      {
         gtag: {
           trackingID: 'G-1WB38Q3KJF',
         },
-      },
+      }),
     ],
   ],
 
