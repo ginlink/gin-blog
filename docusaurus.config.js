@@ -22,10 +22,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en'],
+  // },
 
   presets: [
     [
@@ -34,8 +34,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/ginlink/gin-blog',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -73,15 +73,16 @@ const config = {
             label: 'Blog',
           },
           { to: '/me', label: 'Me', position: 'left' },
+          { to: '/utils', label: '常用工具', position: 'right' },
           {
             href: 'https://github.com/ginlink/gin-blog',
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
