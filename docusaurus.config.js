@@ -73,7 +73,7 @@ const config = {
             label: 'Blog',
           },
           { to: '/me', label: 'Me', position: 'left' },
-          { to: '/utils', label: '常用工具', position: 'right' },
+          // { to: '/utils', label: '常用工具', position: 'right' },
           {
             href: 'https://github.com/ginlink/gin-blog',
             label: 'GitHub',
