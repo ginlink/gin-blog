@@ -35,7 +35,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/ginlink/gin-blog',
-          showLastUpdateTime: true,
+          // showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
