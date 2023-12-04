@@ -43,12 +43,13 @@ export default function About() {
             <Translate>Hello, I'm a</Translate>
           </TYPE.largeHeader>
           <TYPE.largeHeader>
-            <Translate>blockchain front-end development engineer</Translate>
+            <Translate>full stack development engineer</Translate>
           </TYPE.largeHeader>
           <TYPE_Body>
             <Translate>
               I'm Gin and building a successful product is a challenge. I am very active in user experience design,
-              interface and web development. I like JavaScript very much. It is very flexible and brings fun to my life!
+              interface and web development. I like javascript and golang very much. It is very flexible and brings fun
+              to my life!
             </Translate>
           </TYPE_Body>
         </Grid>

@@ -23,7 +23,7 @@ export const iconsMap: {
   react: { icon: icon1, label: 'React(main)(16.8+)', url: 'https://reactjs.org/' },
   ts: { icon: icon3, label: 'Typescript(main)', url: 'https://www.typescriptlang.org/' },
   dapp: { icon: icon10, label: 'Dapp(defi)', url: 'https://etherscan.io/' },
-  vue: { icon: icon2, label: 'Vue(2.x)', url: 'https://cn.vuejs.org/index.html' },
+  vue: { icon: icon2, label: 'Vue(3.x)', url: 'https://cn.vuejs.org/index.html' },
   mui: { icon: icon5, label: 'Mui', url: 'https://mui.com/' },
   antd: { icon: icon6, label: 'Antd', url: 'https://ant.design/index-cn' },
   git: { icon: icon9, label: 'Git', url: 'https://github.com/ginlink' },
