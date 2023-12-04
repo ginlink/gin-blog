@@ -9,7 +9,9 @@ const BASE_URL_NO_HTTPS = 'http://gincool.com'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Gin's site",
+  // title: "Gin's site",
+  title: ' ',
+  titleDelimiter: ' ',
   tagline: 'Gin is cool',
   url: BASE_URL,
   baseUrl: '/',
